@@ -17,7 +17,7 @@ classifiers = [
   "Topic :: Scientific/Engineering :: Bio-Informatics",
 ]
 dependencies = [
-  "cellpose>=3.0",
+  "cellpose>=4.0.6",
   "huggingface_hub>=0.26",
   "numpy>=1.23",
   "scipy>=1.9",
@@ -25,6 +25,9 @@ dependencies = [
   "spatialdata-io>=0.1",
   "tifffile>=2023.7.10",
 ]
+
+[project.optional-dependencies]
+training = ["tqdm>=4.65"]
 
 [project.urls]
 Homepage = "https://github.com/Xingyuan-Zhang/Halo"

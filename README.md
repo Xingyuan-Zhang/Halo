@@ -69,6 +69,10 @@ The curated scripts used for the main figures are in [`analysis/`](analysis/READ
 
 Raw Xenium data, intermediate masks, HPC logs, and model weights are intentionally excluded.
 
+## Model training
+
+The portable Cellpose-SAM training workflow and the published hyperparameters are documented in [`training/`](training/README.md). It supports both the full multi-tissue model and the held-out-tissue experiment from the paper. Training data, disk caches, and checkpoints are excluded from Git.
+
 ## Citation
 
 If you use Halo, please cite:
