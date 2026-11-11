@@ -1,0 +1,15 @@
+name: halo
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python>=3.9
+  - pip
+  - numpy
+  - scipy
+  - scikit-image
+  - tifffile
+  - pip:
+      - cellpose>=3.0
+      - huggingface_hub>=0.26
+      - spatialdata-io>=0.1

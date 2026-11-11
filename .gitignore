@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+dist/
+build/
+
+# Notebooks and editor files
+.ipynb_checkpoints/
+.DS_Store
+
+# Model weights (downloaded from Hugging Face at runtime)
+/Halo
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+hf_cache/
+
+# Raw spatial data and large intermediate arrays
+*.npy
+*.npz
+*.h5
+*.h5ad
+*.tif
+*.tiff
+*.ome.tif
+*.ome.tiff
+*.parquet
+*.zarr/
+
+# Cluster logs and local results
+logs/
+slurm-*
+results/

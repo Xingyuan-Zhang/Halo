@@ -1,0 +1,15 @@
+figure	panel	generated_output	generator	note
+Figure 1	a	figures/published/figure1a_cell_counts.png	analysis/figure1/cell_count.ipynb	Published cell-count panel
+Figure 1	b	manual composition	N/A	Representative nuclear and whole-cell boundaries
+Figure 1	c	figures/published/figure1c_transcripts_within_cells.png	analysis/figure1/transcript_in_cell.ipynb	Published transcript-assignment panel
+Figure 1	d	manual composition	N/A	Halo workflow schematic
+Figure 2	a-b	selected segmentation crops	analysis/figure2/tiles_example.ipynb	Final crops were assembled manually
+Figure 3	a	boxplot_methods_halo_proseg_rna2seg_baysor_ne.pdf	analysis/figure3/plot_iou_boxplots.py	Image IoU and Gene IoU across tissues
+Figure 3	b	human_kidney_updated_iou_barplot_combined.pdf	analysis/figure3/plot_kidney_and_heldout_iou.py	Kidney comparison
+Figure 3	c	barplot_heldout3_xeniumseg_halo_heldout_proseg_iou.pdf	analysis/figure3/plot_kidney_and_heldout_iou.py	Held-out-tissue comparison
+Figure 4	a-d	figures/published/figure4_clustering_metrics.pdf	analysis/figure4/plot_clustering_metrics.py	ARI, AMI, homogeneity, completeness
+Figure 5	a-b	lung_tile0109_skin_tile0045_combined_figure004_style_masks.pdf	analysis/figure5/plot_lung_skin_combined.py	Lung adenocarcinoma and melanoma
+Figure 6	a-c	boxplot_area_aspect_ratio_roundness_6methods.pdf	analysis/figure6/plot_morphology_boxplots.R	Six-method morphology distributions
+Figure 6	d-f	individual_feature_barplots/*.pdf	analysis/figure6/plot_morphology_correlations.R	Median Pearson correlations
+Figure 7	a	figures/published/figure7a_morphology_umap.pdf	analysis/figure7/morphology_umap.R	Morphology UMAP centroids
+Figure 7	b	figures/published/figure7b_rf_metrics.pdf	analysis/figure7/morphology_random_forest.R; analysis/figure7/plot_rf_significance.R	Five-seed RF metrics and significance

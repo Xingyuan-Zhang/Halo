@@ -1,0 +1,10 @@
+anndata
+matplotlib
+numpy
+pandas
+scanpy
+scikit-image
+scikit-learn
+scipy
+seaborn
+tifffile

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use Halo, please cite the published article."
+title: "Halo"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Xingyuan
+repository-code: "https://github.com/Xingyuan-Zhang/Halo"
+url: "https://huggingface.co/XYZ1998/Halo"
+license: MIT
+version: 0.2.0
+date-released: 2026-11-11
+preferred-citation:
+  type: article
+  title: "Halo: a pretrained model for whole-cell segmentation from nuclei images in spatial transcriptomics"
+  journal: "Briefings in Bioinformatics"
+  year: 2026
+  doi: "10.1093/bib/bbag515"

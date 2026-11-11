@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "halo-cellseg"
+version = "0.2.0"
+description = "Whole-cell segmentation from Xenium DAPI images and transcript density"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [{name = "Xingyuan Zhang"}]
+keywords = ["spatial transcriptomics", "Xenium", "segmentation", "Cellpose"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+  "cellpose>=3.0",
+  "huggingface_hub>=0.26",
+  "numpy>=1.23",
+  "scipy>=1.9",
+  "scikit-image>=0.20",
+  "spatialdata-io>=0.1",
+  "tifffile>=2023.7.10",
+]
+
+[project.urls]
+Homepage = "https://github.com/Xingyuan-Zhang/Halo"
+Model = "https://huggingface.co/XYZ1998/Halo"
+Paper = "https://doi.org/10.1093/bib/bbag515"
+
+[project.scripts]
+halo = "halo.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
